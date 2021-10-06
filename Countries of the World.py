@@ -11,7 +11,7 @@ print(data.shape)
 print(data.head())
 print(data.dtypes)
 
-# Removes limit on how many rows is displayed
+# Removes limit on how many rows are displayed
 pd.set_option("display.max_rows", None)
 
 # Displays the number of NULL values in (a) each column and (b) each row
